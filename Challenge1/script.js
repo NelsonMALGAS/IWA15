@@ -19,7 +19,9 @@ const data = {
       of the arrays is empty, meaning it has no elements, the value returned
       will be negative infinity.
      */
-  
+    
+       // Find the largest number among the last elements of each subarray
+
     const maxFirst = first.length > 0 ? first[first.length - 1] : -Infinity;
     const maxSecond = second.length > 0 ? second[second.length - 1] : -Infinity;
     const maxThird = third.length > 0 ? third[third.length - 1] : -Infinity;
@@ -37,7 +39,7 @@ const data = {
     return maxThird;
   }
   
-  
+  // An empty array to hold the extracted values
   const result = [];
   
 // Only edit above
