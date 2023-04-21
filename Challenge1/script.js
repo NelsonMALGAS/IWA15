@@ -14,13 +14,13 @@ const data = {
     }
 
     /**
-     * The code snippet takes the last element of each of the three arrays, and
-      finds the largest value among them using the Math.max() function. If any
-      of the arrays is empty, meaning it has no elements, the value returned
-      will be negative infinity.
+     * This block of code assigns the last element of  arrays called
+      "first","second" & "Third" to  variables named "maxFirst","maxSecond" &
+      "maxThird" if the arrays are not empty. If the array is empty, it assigns a
+      value of negative infinity to "maxFirst","maxSecond" & "maxThird". The ternary operators is used
+      here to conditionally assign a value to "maxFirst" based on the length of
+      the "first" array.
      */
-    
-       // Find the largest number among the last elements of each subarray
 
     const maxFirst = first.length > 0 ? first[first.length - 1] : -Infinity;
     const maxSecond = second.length > 0 ? second[second.length - 1] : -Infinity;
